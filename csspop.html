@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2014 by anonymous (http://jsbin.com/yigaziki/1/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+  <title>纯CSS气泡效果</title>
+
+<style id="jsbin-css">
+.arrows_1{
+  display:block;
+  width:0px;
+  height:0px;
+  border-style:solid;
+  border-width:20px;
+  border-color:transparent #00F transparent transparent;
+  position:absolute;
+}
+
+.pop_container_{
+  
+}
+.arrows_2{
+  display:block;
+  width:0px;
+  height:0px;
+  border-style:solid;
+  border-width:20px;
+  border-color:transparent #FFF transparent transparent;
+  position:absolute;
+  left:1px
+}
+
+.pop_container{
+  float:left;
+  width:40px;
+  height:40px;
+  position:relative;
+  z-index:10;
+  top:20px
+}
+.pop_text{
+  height:100px;
+  width:150px;
+  border:solid #00F 1px;
+  background:#FFF;
+  float:left;
+  position:relative;
+  z-index:1;
+  border-radius:5px;
+}
+</style>
+</head>
+<body>
+  
+  
+  <div class='pop_container_'>
+    <div class='pop_container'>
+      <div class='arrows_1'></div>
+      <div class='arrows_2'></div>
+    </div>
+    <div class='pop_text'>
+    纯CSS气泡效果
+    </div>
+    </div>
+  
+<script>
+
+</script>
+</body>
+</html>
